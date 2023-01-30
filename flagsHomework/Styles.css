@@ -1,0 +1,72 @@
+/*HEADERS*/
+h1{
+    font-family: Ubuntu;
+    text-align: center;
+}
+h3{
+    font-family: Ubuntu;
+    text-align: center;
+}
+.header{
+    display: flex;
+}
+/*FLAGS*/
+#flag{
+display: flex;
+justify-content: center;
+}
+#Alemania,#Argentina,#Belgica{    
+    width: 400px;
+    height: 200px;
+}
+#Belgica{ 
+    display: flex;     
+}
+/*FLAGS SECTIONS*/
+.parte1,.parte2,.parte3,.parte4,.parte5{  
+    width: 100%;
+    height: 33.33%;
+}
+.p-1-Belgium,.p-2-Belgium,.p-3-Belgium{
+width: 100%;
+height: 100%;
+}
+.p-1-Belgium{
+    background-color: black;
+}
+.p-2-Belgium{
+    background-color: #F2CB00;
+}
+.p-3-Belgium{
+    background-color: #E12736;
+}
+.parte1{
+    background-color: black;
+}
+.parte2{
+    background-color: #F2C300;
+}
+.parte3{
+    background-color: #D60000;
+}
+.parte4{
+    background-color: #6EA3D4;
+}
+.parte5{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+/*IMG*/
+img{
+    width: 50px;
+    height: 50px;
+}
+.sun{
+margin-top: 7px;
+}
+/*FOOTER*/
+p{
+    font-family: Ubuntu;
+    text-align: center; 
+}

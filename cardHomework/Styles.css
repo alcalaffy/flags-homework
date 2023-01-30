@@ -1,0 +1,48 @@
+body{
+    background-color: #D9EEE1;
+}
+p,span{
+    font-family: Montserrat;
+}
+a{
+    color: goldenrod;
+}
+span,a{
+    font-weight: bold;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    border-radius: 20px;
+    grid-template-rows: repeat(3,45%,45%,10%);
+    justify-items: center;
+    height: 400px;
+    width: 450px;
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    background-image: url("./thumb-116397.png");
+}
+.table{
+    width: 400px;
+    height: 100px;
+    background-color: gainsboro;
+    display: grid;
+    grid-template-rows: repeat(3,33%);
+    grid-template-columns: repeat(2,50%);
+    border-radius: 5px;
+    padding: 3px; 
+}
+.table,.photo,.container{
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+img{
+    width: 150px;
+    height: 150px;
+}
